@@ -43,7 +43,7 @@ RUN apk --no-cache add \
     openssl-dev
 
 # Add service directory to /container/service
-ADD service /container/service
+ADD /image/service /container/service
 
 # Use baseimage install-service script
 # https://github.com/osixia/docker-light-baseimage/blob/stable/image/tool/install-service
