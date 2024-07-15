@@ -50,4 +50,4 @@ ADD service /container/service
 RUN /container/tool/install-service
 
 # Add default env variables
-ADD environment /container/environment/99-default
+ADD /image/environment /container/environment/99-default
