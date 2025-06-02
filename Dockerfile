@@ -1,4 +1,4 @@
-FROM alpine:3.21
+FROM alpine:3.22
 
 # Keepalived version
 # ARG KEEPALIVED_VERSION=2.3.1
